@@ -1,0 +1,51 @@
+{
+  "version": "1.0.0",
+  "freeze_date": "2026-08-23",
+  "verdict": "PASS for frozen conditional theory",
+  "architecture": "O4 -> literal dS3 early acceleration -> conditional N* handoff -> reconstructed k=0 3+1 reheating/radiation/matter -> late global/extrinsic dS4 w=-1",
+  "continuous_background_history_data": {
+    "N_star": 57.8401844744
+  },
+  "phenomenological_primordial_state": ["A_s", "n_s"],
+  "late_geometry": {
+    "R_star_m": 8.5993e-5,
+    "Lambda_global_GeV": 2.294686231400764e-12,
+    "L_IR_m": 1.580517989894077e26,
+    "H_late_GeV": 1.2484956303042426e-42,
+    "Lambda_eff_GeV2": 4.676224016666364e-84,
+    "rho_late_GeV4": 2.772638434521862e-47,
+    "w": -1
+  },
+  "derived_or_controlled_passes": [
+    "O4/dS3 early wall acceleration",
+    "global relational history clock",
+    "wall-thickness quench timescale",
+    "background k=0 hot-era consistency under ownership rules",
+    "late extrinsic dS4 gives exact effective w=-1",
+    "visible loading is broadly viable under universal geometric handoff",
+    "Phase-B2 internal flavor invariants survive a factorized geometric handoff"
+  ],
+  "conditional_discrete_assumptions": [
+    "flat causal-patch metric ownership at reconstruction",
+    "true-Minkowski gravitational reference",
+    "delocalizing non-destructive handoff",
+    "universal geometric handoff/internal-flavor blindness",
+    "global screen-scale ownership of nonlocal reconstruction sector",
+    "maximal-depth CKN-shaped reconstruction convention",
+    "screen persistence for DM/memory"
+  ],
+  "retired_claims": [
+    "H8/Lambda_mem as dark energy",
+    "emergent time alone generates CMB scalar",
+    "historical r~0.015 as a prediction",
+    "ordinary CKN using microscopic F predicts cosmic L_IR"
+  ],
+  "future_derivation_priorities": [
+    "derive N* from a global/material-flow/reconstruction trigger",
+    "derive exact screen-to-IR-depth theorem and normalization",
+    "derive A_s and n_s from a physical reconstruction/material-flow scalar response",
+    "derive exact handoff energy partition and reheating",
+    "complete DM/memory independently",
+    "audit stationary-wall 4D/5D material flow without assuming rotation"
+  ]
+}

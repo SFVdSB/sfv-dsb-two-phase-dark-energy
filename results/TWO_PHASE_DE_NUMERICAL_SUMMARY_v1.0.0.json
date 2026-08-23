@@ -1,0 +1,19 @@
+{
+  "M4_GeV": 2.435e+18,
+  "H3_GeV": 30227084445462.914,
+  "N_star": 57.84018447444152,
+  "R_star_GeV_inv": 435789427903.4227,
+  "R_star_m": 8.599301189842592e-05,
+  "Lambda_global_GeV": 2.294686231400764e-12,
+  "Lambda_global_meV": 2.294686231400764,
+  "L_IR_GeV_inv": 8.009639567231106e+41,
+  "L_IR_m": 1.580517989894077e+26,
+  "H_late_GeV": 1.2484956303042426e-42,
+  "H_late_km_s_Mpc": 58.52909441456753,
+  "Lambda_eff_GeV2": 4.676224016666364e-84,
+  "rho_late_GeV4": 2.772638434521862e-47,
+  "rho_late_fourth_root_meV": 2.294686231400764,
+  "w_late": -1.0,
+  "rho_equals_Rstar_minus4_relative_error": 0.0,
+  "claim_boundary": "Absolute scale is conditional because N_star and maximal-depth normalization are not independently derived in v1.0.0."
+}

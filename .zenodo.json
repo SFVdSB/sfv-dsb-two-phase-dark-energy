@@ -1,0 +1,44 @@
+{
+  "title": "Two-Phase Holographic Cosmology from a Gravitational O(4) Wall: Conditional Reconstruction of the Late Dark-Energy Scale",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "creators": [
+    {
+      "name": "Hoffmann, Steven"
+    }
+  ],
+  "description": "A frozen conditional SFV/dSB two-phase cosmology built on the published gravitational O(4)/Coleman-De Luccia wall. The Lorentzian thick wall supplies an early dS3 accelerated phase. At the single phenomenological history datum N_star=57.8401844744, a delocalizing non-destructive 2+1 to 3+1 holographic handoff fixes a global screen radius R_star=85.993 micrometers and resolution R_star^-1=2.294686 meV. After separating local microscopic response from the nonlocal finite-screen sector, a discrete maximal-depth CKN-shaped reconstruction rule L_IR=sqrt(3) Mbar_4 R_star^2 yields L_IR=1.580518e26 m, H_late=1.248496e-42 GeV, and rho_DE=2.772638e-47 GeV^4. Within this convention rho_DE=R_star^-4 exactly and the late global/extrinsic dS4 geometry gives w=-1 without a dark-energy scalar. The absolute late normalization is explicitly conditional because N_star is not yet action-derived and the maximal-depth normalization remains a discrete holographic postulate. Primordial A_s and n_s are also retained phenomenologically after explicit current-action no-go tests. DOI: 10.5281/zenodo.22071079.",
+  "version": "v1.0.0",
+  "publication_date": "2026-08-23",
+  "keywords": [
+    "SFV/dSB",
+    "dark energy",
+    "holographic cosmology",
+    "two-phase cosmology",
+    "O(4) bounce",
+    "Coleman-De Luccia",
+    "de Sitter wall",
+    "2+1 to 3+1 reconstruction",
+    "UV/IR relation",
+    "CKN bound",
+    "Brown-York stress tensor",
+    "emergent spacetime",
+    "cosmological constant",
+    "w=-1",
+    "vacuum energy",
+    "reheating",
+    "relational time"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.22070942",
+      "relation": "isSupplementTo",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.22059294",
+      "relation": "isSupplementTo",
+      "scheme": "doi"
+    }
+  ]
+}

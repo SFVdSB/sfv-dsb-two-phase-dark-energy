@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the Zenodo record and manuscript."
+title: "Two-Phase Holographic Cosmology from a Gravitational O(4) Wall: Conditional Reconstruction of the Late Dark-Energy Scale"
+type: software
+authors:
+  - family-names: Hoffmann
+    given-names: Steven
+version: "1.0.0"
+date-released: "2026-08-23"
+repository-code: "https://github.com/SFVdSB/sfv-dsb-two-phase-dark-energy"
+doi: "10.5281/zenodo.22071079"
+keywords:
+  - SFV/dSB
+  - dark energy
+  - holographic cosmology
+  - O(4) bounce
+  - de Sitter wall
+  - dimensional reconstruction
+  - UV/IR relation
+  - w=-1
+  - emergent spacetime
+  - Coleman-De Luccia
