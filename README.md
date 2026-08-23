@@ -9,7 +9,7 @@ Version: v1.0.0
 Date: 2026-08-23  
 Zenodo DOI: **10.5281/zenodo.22071079**
 
-Planned GitHub repository: `SFVdSB/sfv-dsb-two-phase-dark-energy`
+GitHub repository: `SFVdSB/sfv-dsb-two-phase-dark-energy`
 
 ## Core result
 
@@ -71,7 +71,7 @@ The end-to-end background passes only with the following explicit rules:
 
 ## Repository structure
 
-- `paper/` — LaTeX manuscript and compiled PDF.
+- `paper/` — LaTeX manuscript source. The compiled PDF is distributed with the Zenodo release.
 - `freeze/` — frozen theory specification, final falsification audit, and final claim ledger.
 - `derivation/` — late-DE and primordial-interface checkpoints leading to the freeze.
 - `scripts/` — reproduction scripts, including a lightweight standalone late-scale calculator.
