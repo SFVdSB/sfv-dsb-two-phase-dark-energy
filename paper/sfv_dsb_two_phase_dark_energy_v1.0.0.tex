@@ -1,0 +1,107 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,bm}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{microtype}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{siunitx}
+\usepackage{mathtools}
+\usepackage{longtable}
+\usepackage{array}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue,
+  citecolor=blue,
+  urlcolor=blue,
+  pdftitle={Two-Phase Holographic Cosmology from a Gravitational O(4) Wall},
+  pdfauthor={Steven Hoffmann}
+}
+
+\newcommand{\Mbar}{\overline M_4}
+\newcommand{\Rstar}{R_*}
+\newcommand{\Nstar}{N_*}
+\newcommand{\LIR}{L_{\rm IR}}
+\newcommand{\Hlate}{H_{\rm late}}
+\newcommand{\rhode}{\rho_{\rm DE}}
+\newcommand{\Lglob}{\Lambda_{\rm glob}}
+\newcommand{\dd}{\mathrm d}
+
+\title{\textbf{Two-Phase Holographic Cosmology from a Gravitational $O(4)$ Wall:}\\
+Conditional Reconstruction of the Late Dark-Energy Scale}
+\author{Steven Hoffmann\\Independent Researcher}
+\date{August 2026\\\small Zenodo DOI: \href{https://doi.org/10.5281/zenodo.22071079}{10.5281/zenodo.22071079}}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We present a frozen two-phase cosmological construction built on the independently published gravitational completion of the corrected SFV/dSB $O(4)$ bounce.  The Euclidean tunneling saddle analytically continues to a literal thick $dS_3$ wall whose expansion supplies the primordial accelerated phase.  At a single phenomenological history datum, $\Nstar=57.8401844744$, the observable description is taken to undergo a delocalizing, non-destructive holographic handoff from localized $2+1$ wall physics to a locally flat reconstructed $3+1$ spacetime.  The global wall radius at handoff is
+\[
+\Rstar=H_3^{-1}e^{\Nstar}=85.993~\mu{\rm m},
+\]
+corresponding to a global screen resolution $\Lglob=\Rstar^{-1}=2.294686~{\rm meV}$.  After local microscopic response is separated from the nonlocal finite-screen sector, we impose a discrete maximal-depth reconstruction rule of Cohen--Kaplan--Nelson (CKN)-shaped form,
+\[
+\LIR=\sqrt3\,\Mbar\Rstar^2.
+\]
+This gives $\LIR=1.580518\times10^{26}\,{\rm m}$ and $\Hlate=1.248496\times10^{-42}\,{\rm GeV}$.  The resulting late density obeys the exact algebraic identity
+\[
+\rhode=\frac{3\Mbar^2}{\LIR^2}=\Rstar^{-4}=\Lglob^4,
+\]
+so that $\rhode^{1/4}=2.294686~{\rm meV}$.  The late geometry is extrinsic/global $dS_4$, hence reconstructed observers infer exactly $w=-1$ without a dark-energy scalar.  End-to-end hostile tests require three ownership rules: the global $S^2$ wall radius is not inherited as physical $k=+1$ FRW curvature; the reconstructed vacuum zero uses the true-Minkowski gravitational reference; and wall/excitation/extrinsic energies are not double counted.  Under these rules the late term is negligible through the hot era and becomes relevant only in the deep infrared.
+
+The absolute dark-energy scale is \emph{not} a blind first-principles prediction in this version: $\Nstar$ is retained as one continuous history datum and the exact maximal-depth normalization remains a discrete holographic postulate.  Primordial scalar amplitude and tilt, $\{A_s,n_s\}$, are also retained phenomenologically after explicit current-action no-go tests.  The model is therefore presented as a compact conditional cosmology with a derived two-phase geometry and exact conditional $w=-1$ prediction, rather than as a complete first-principles derivation of all cosmological observables.
+\end{abstract}
+
+\section{Introduction}
+
+The observed late-time acceleration of the Universe is well described in the standard cosmological model by a positive cosmological constant, although its microscopic origin and small magnitude remain unexplained.  In flat $\Lambda$CDM, the late vacuum component is characterized by $w=-1$ and an energy scale of order a few meV.  Planck 2018 found a self-consistent flat six-parameter $\Lambda$CDM cosmology with $H_0=67.4\pm0.5~{\rm km\,s^{-1}\,Mpc^{-1}}$ and $\Omega_m=0.315\pm0.007$ \cite{Planck2018}.  More recent DESI DR2 analyses find that flat $\Lambda$CDM remains a viable baseline while combinations with supernova data can prefer evolving dark energy, so an exact $w=-1$ theory is now a particularly direct empirical target \cite{DESIDR2,Lodha2025}.
+
+This paper investigates a different origin for the late constant-curvature term.  The starting point is not a new low-energy scalar potential, but the gravitational continuation of a corrected $O(4)$ vacuum-decay solution.  The standalone gravitational theory has been published separately \cite{HoffmannGCDL}, and its scalar-wall background is also the anchor for a separate quark-flavor construction \cite{HoffmannFlavor}.  The relevant output for the present work is a thick gravitational wall whose Lorentzian continuation possesses a $dS_3$ worldvolume with curvature
+\begin{equation}
+H_3=3.0227084445\times10^{13}\ {\rm GeV}.
+\label{eq:H3}
+\end{equation}
+The wall curvature is overwhelmingly pressure/extrinsic in origin, rather than an ordinary $3+1$ Friedmann energy density.
+
+The central proposal is a two-phase cosmology:
+\begin{equation}
+O(4)\ \text{nucleation}
+\longrightarrow dS_3\ \text{wall acceleration}
+\longrightarrow 2+1\to3+1\ \text{handoff}
+\longrightarrow \text{hot }3+1\ \text{FRW}
+\longrightarrow dS_4\ \text{deep IR}.
+\label{eq:architecture}
+\end{equation}
+The same global handoff that terminates the wall-dominated observable phase fixes a finite screen ruler.  The nonlocal reconstruction sector is then assigned a maximal gravitationally allowed depth.  This converts an exponentially enlarged handoff radius into a cosmic infrared length without treating the microscopic high-energy matter scale as the UV cutoff of an ordinary local-EFT CKN argument.
+
+The purpose of the paper is to derive the consequences of this conditional architecture, state the numerical dark-energy relation, and make the claim boundary explicit.  In particular, we do not claim that the observed dark-energy density has been obtained from action primitives alone.  The single history datum $\Nstar$ is currently calibrated rather than dynamically selected, and the maximal-depth relation has not yet been elevated to a theorem of the full wall-plus-gravity system.
+
+\section{Published gravitational input}
+
+The underlying corrected gravitational $O(4)$/Coleman--De Luccia construction is described in Ref.~\cite{HoffmannGCDL}.  Here we only import the quantities needed by the cosmological reconstruction.
+
+The common scalar scale is
+\begin{equation}
+F=1.7713683609\times10^{14}\ {\rm GeV},
+\end{equation}
+and the Lorentzian wall curvature is Eq.~\eqref{eq:H3}.  A gravitational decomposition of the positive wall-curvature scale gives
+\begin{equation}
+\frac{H_{3,\rm pressure}^2}{H_3^2}=0.9999999455,
+\label{eq:pressure_fraction}
+\end{equation}
+showing that the wall expansion cannot be interpreted as the Friedmann response to a $3+1$ vacuum density that must later be conserved across the dimensional handoff.
+
+The same gravitational analysis identifies a true-Minkowski reference condition for the scalar potential.  In the diagnostic convention $C=0$, the true-vacuum potential is
+\begin{equation}
+V_T/F^4=-2.0000000164\times10^{-8}.
+\end{equation}
+The reconstructed Einstein vacuum reference is instead
+\begin{equation}
+C=-V_T=2.0000000164\times10^{-8}F^4,
+\label{eq:trueMinkowski}
+\end{equation}
+so that the true-vacuum Einstein energy vanishes.  This reference condition is inherited from the gravitational saddle analysis and is not fitted t
